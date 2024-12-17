@@ -54,7 +54,7 @@ export default function ProcijeniVrijednost() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center md:justify-center p-10">
-      <Navigation setIsOpen={setIsOpen} />
+      <Navigation isOpen={isOpen} setIsOpen={setIsOpen} />
 
       {/*Elements above input*/}
       <div className="mb-4 text-center w-full max-w-xl">
